@@ -12,7 +12,7 @@ def reverse_each_word(phrase)
   end
   
   
-  word_array
+  word_array.join
 end
 
 def reverse_each_word_each(phrase)

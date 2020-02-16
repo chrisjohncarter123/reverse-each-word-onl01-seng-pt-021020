@@ -11,7 +11,10 @@ def reverse_each_word(phrase)
       new_phrase += letter_array[letter_array.length - index - 1]
       
     end
-  new_phrase += " "
+    if(index != word_array.length - 1)
+      new_phrase += " "
+    end
+  
   end
   
   new_phrase

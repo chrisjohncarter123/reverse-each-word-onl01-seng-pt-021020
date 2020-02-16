@@ -1,0 +1,5 @@
+
+new_words
+each |word, index|
+  
+    new_words[counter] += word[word.length - index - 1]

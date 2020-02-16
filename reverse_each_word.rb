@@ -13,6 +13,8 @@ def reverse_each_word(phrase)
     end
   new_phrase += " "
   end
+  
+  new_phrase
 end
 
 reverse_each_word("Hello")
